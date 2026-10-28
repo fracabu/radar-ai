@@ -1,0 +1,10 @@
+{
+  "ora": "08:00",
+  "profili_x": ["AnthropicAI", "claudeai"],
+  "x_max_per_profilo": 40,
+  "x_top": 8,
+  "github_topic": ["llm", "ai-agents", "mcp", "claude", "generative-ai"],
+  "github_stelle_min": 50,
+  "github_giorni": 7,
+  "github_top": 5
+}

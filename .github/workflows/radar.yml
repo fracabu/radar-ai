@@ -1,0 +1,44 @@
+name: Radar AI
+
+# Il riepilogo parte solo quando questo job gira: GitHub Actions lo fa anche a PC spento.
+# Le ore sono UTC e coprono ora legale e solare: è lo script (--cron) a decidere,
+# in ora di Roma, se è il momento (≥ config.ora) e se oggi è già partito.
+#   06:07 e 07:07 UTC → una delle due cade dopo le 08:00 di Roma
+# GitHub può ritardare i cron di 10-20 minuti. Se un run fallisce GitHub manda una mail.
+on:
+  schedule:
+    - cron: '7 6,7 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Mostra il riepilogo senza mandarlo'
+        type: boolean
+        default: false
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  giro:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Riepilogo
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: node scripts/radar.mjs ${{ github.event_name == 'schedule' && '--cron' || '' }} ${{ inputs.dry_run && '--dry' || '' }}
+      - name: Salva lo stato
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "fracabu"
+          git config user.email "100199965+fracabu@users.noreply.github.com"
+          git add stato.json
+          git diff --cached --quiet || (git commit -m "stato $(date -u +%F)" && git push)

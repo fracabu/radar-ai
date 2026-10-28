@@ -41,7 +41,10 @@ if (CRON && (oraRoma < config.ora || stato.ultimo_invio === oggiRoma)) {
 async function postX() {
   if (!env.APIFY_TOKEN) return { righe: [], errore: 'manca APIFY_TOKEN' };
   const tutti = [];
-  for (const h of config.profili_x) {
+  // Cinque profili alla volta: in fila sarebbero minuti di attesa.
+  const coda = [...config.profili_x];
+  await Promise.all(Array.from({ length: 5 }, async () => {
+  for (let h; (h = coda.shift()); ) {
     let res;
     for (let tentativo = 1; tentativo <= 2; tentativo++) { // lo scraper ogni tanto fallisce al primo colpo
       res = await fetch(`https://api.apify.com/v2/acts/${ACTOR}/run-sync-get-dataset-items?timeout=280`, {
@@ -54,6 +57,7 @@ async function postX() {
     if (!res.ok) { console.error(`Apify @${h}: ${res.status}`); continue; }
     tutti.push(...(await res.json()));
   }
+  }));
   const visti = new Set(stato.x_visti || []);
   const nuovi = tutti
     .filter(t => !t.isRetweet && !(t.replyingTo && t.replyingTo.length))
@@ -77,6 +81,26 @@ async function newsAnthropic() {
   stato.news_visti = [...new Set([...slug, ...visti])].slice(0, 300);
   if (primoGiro) return []; // al primo giro memorizza soltanto, altrimenti sarebbe tutto "nuovo"
   return nuovi.map(s => `• <a href="https://www.anthropic.com/news/${s}">${esc(s.replace(/-/g, ' '))}</a>`);
+}
+
+// Blog ufficiali con feed RSS/Atom: passano gli articoli delle ultime 36 ore non ancora mandati.
+async function feedLaboratori() {
+  const visti = new Set(stato.feed_visti || []);
+  const nuovi = [];
+  await Promise.all(Object.entries(config.feed).map(async ([nome, url]) => {
+    try {
+      const xml = await (await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 radar-ai' } })).text();
+      for (const [, voce] of xml.matchAll(/<(?:item|entry)\b[^>]*>([\s\S]*?)<\/(?:item|entry)>/g)) {
+        const campo = tag => (voce.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)</${tag}>`)) || [])[1]?.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+        const link = campo('link') || (voce.match(/<link\b[^>]*href="([^"]+)"/) || [])[1];
+        const data = Date.parse(campo('pubDate') || campo('published') || campo('updated') || '');
+        if (!link || visti.has(link) || !(Date.now() - data < 36 * 3600e3)) continue;
+        nuovi.push({ nome, titolo: campo('title') || link, link });
+      }
+    } catch (e) { console.error(`feed ${nome}: ${e.message}`); }
+  }));
+  stato.feed_visti = [...nuovi.map(n => n.link), ...visti].slice(0, 500);
+  return nuovi.map(n => `• <b>${esc(n.nome)}</b> <a href="${n.link}">${esc(breve(n.titolo, 140))}</a>`);
 }
 
 async function changelogClaudeCode() {
@@ -109,18 +133,24 @@ async function repoGithub() {
     if (!res.ok) { console.error(`GitHub ${topic}: ${res.status}`); continue; }
     for (const r of (await res.json()).items || []) trovati.set(r.id, r);
   }
-  const items = [...trovati.values()].sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, config.github_top);
+  // Un repo già segnalato non torna, anche se resta in classifica.
+  const visti = new Set(stato.repo_visti || []);
+  const items = [...trovati.values()].filter(r => !visti.has(r.full_name))
+    .sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, config.github_top);
+  stato.repo_visti = [...items.map(r => r.full_name), ...visti].slice(0, 500);
   return items.map(r => `• <a href="${r.html_url}">${esc(r.full_name)}</a> ⭐${k(r.stargazers_count)} — ${esc(breve(r.description || '', 120))}`);
 }
 
 const prova = async (nome, fn) => { try { return await fn(); } catch (e) { console.error(`${nome}: ${e.message}`); return null; } };
-const [x, news, cc, repo] = await Promise.all([
-  prova('X', postX), prova('news', newsAnthropic), prova('changelog', changelogClaudeCode), prova('GitHub', repoGithub),
+const [x, news, feed, cc, repo] = await Promise.all([
+  prova('X', postX), prova('news', newsAnthropic), prova('feed', feedLaboratori),
+  prova('changelog', changelogClaudeCode), prova('GitHub', repoGithub),
 ]);
 
 const sezioni = [
   ['🚀 Claude Code: nuove versioni', cc],
   ['📰 Anthropic: nuovi articoli', news],
+  ['🧪 Dai laboratori AI', feed],
   ['𝕏 I post più forti delle ultime 24 ore', x?.righe],
   [`⭐ Repo AI nuovi più stellati (ultimi ${config.github_giorni} giorni)`, repo],
 ].filter(([, righe]) => righe && righe.length);

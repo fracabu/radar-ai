@@ -1,8 +1,17 @@
 {
   "ora": "08:00",
-  "profili_x": ["AnthropicAI", "claudeai"],
+  "profili_x": [
+    "AnthropicAI", "claudeai", "OpenAI", "GoogleDeepMind", "AIatMeta",
+    "MistralAI", "deepseek_ai", "Alibaba_Qwen", "xai", "huggingface"
+  ],
   "x_max_per_profilo": 40,
   "x_top": 8,
+  "feed": {
+    "OpenAI": "https://openai.com/news/rss.xml",
+    "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+    "Hugging Face": "https://huggingface.co/blog/feed.xml",
+    "Qwen": "https://qwenlm.github.io/blog/index.xml"
+  },
   "github_topic": ["llm", "ai-agents", "mcp", "claude", "generative-ai"],
   "github_stelle_min": 50,
   "github_giorni": 7,

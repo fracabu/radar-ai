@@ -145,13 +145,16 @@ for (const blocco of testo.split('\n\n')) {
   if (pezzi.length && (pezzi.at(-1) + '\n\n' + blocco).length < 4000) pezzi[pezzi.length - 1] += '\n\n' + blocco;
   else pezzi.push(blocco);
 }
-for (const pezzo of pezzi) {
-  const res = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ chat_id: env.TELEGRAM_CHAT_ID, text: pezzo, parse_mode: 'HTML', disable_web_page_preview: true }),
-  });
-  if (!res.ok) { console.error(`Telegram: ${res.status} ${await res.text()}`); process.exit(1); }
+// TELEGRAM_CHAT_ID può contenere più destinatari separati da virgola.
+for (const chat of env.TELEGRAM_CHAT_ID.split(',').map(s => s.trim()).filter(Boolean)) {
+  for (const pezzo of pezzi) {
+    const res = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: chat, text: pezzo, parse_mode: 'HTML', disable_web_page_preview: true }),
+    });
+    if (!res.ok) { console.error(`Telegram: ${res.status} ${await res.text()}`); process.exit(1); }
+  }
 }
 stato.ultimo_invio = oggiRoma;
 writeFileSync('stato.json', JSON.stringify(stato, null, 2));

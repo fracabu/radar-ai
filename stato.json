@@ -2,6 +2,7 @@
   "news_visti": [
     "public-benefit-fund",
     "s1-sec",
+    "ai-for-science-expands-foundations-research-institutions",
     "expanding-partnership-gsa",
     "partnerships",
     "donating-agent-skills-to-the-agentic-ai-foundation",
@@ -28,5 +29,20 @@
   "x_visti": [
     "2115178675050307942",
     "2115207004293853358"
-  ]
+  ],
+  "feed_visti": [
+    "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "https://openai.com/index/the-future-of-the-firm",
+    "https://openai.com/index/legora",
+    "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+  ],
+  "repo_visti": [
+    "daveebbelaar/bama",
+    "hevnsnt/CVEngine",
+    "patch-gg/anymove",
+    "ChannelCooperStart/capri-ai",
+    "0xS4N4TG/kinetograph"
+  ],
+  "ultimo_invio": "2026-10-29"
 }

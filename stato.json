@@ -25,12 +25,25 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.312",
+  "cc_versione": "2.1.314",
   "x_visti": [
+    "2115859377488072879",
+    "2115811242556137820",
+    "2115896329645723836",
+    "2115871889549865429",
+    "2115825653539025142",
+    "2115828507712327979",
     "2115178675050307942",
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "https://huggingface.co/blog/announcing-project-protostar",
+    "https://huggingface.co/blog/mistral-large4",
+    "https://huggingface.co/blog/anydecisionmodel",
+    "https://openai.com/index/updated-model-spec",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "https://openai.com/index/ropes-gray-ai-diligence",
     "https://openai.com/index/openai-servicenow-partnership-expansion",
     "https://openai.com/index/the-future-of-the-firm",
     "https://openai.com/index/legora",
@@ -38,11 +51,16 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "qybaihe/bla",
+    "ccch1mneyyy/dsh-go",
+    "haydenschmitty/floorplan",
+    "jackwener/DeepseekHarness-Android",
+    "JunWan666/astrbot-for-android",
     "daveebbelaar/bama",
     "hevnsnt/CVEngine",
     "patch-gg/anymove",
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-10-29"
+  "ultimo_invio": "2026-10-30"
 }

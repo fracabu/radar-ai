@@ -25,8 +25,13 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.314",
+  "cc_versione": "2.1.316",
   "x_visti": [
+    "2116220869479428500",
+    "2116253388883345623",
+    "2116186509384815084",
+    "2116349211549843666",
+    "2116105034673058023",
     "2115859377488072879",
     "2115811242556137820",
     "2115896329645723836",
@@ -37,6 +42,10 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "https://openai.com/index/fair-use-benefits-everyone",
+    "https://huggingface.co/blog/nvidia/nemotron-halloween",
     "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
     "https://huggingface.co/blog/announcing-project-protostar",
     "https://huggingface.co/blog/mistral-large4",
@@ -51,6 +60,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "ccch1mneyyy/dsh-Go",
+    "wangzan101/Mika",
+    "jackwener/DSH-Android",
+    "boardshogunfluctuate/Capri-AI",
+    "jmanico/grim-prompter",
     "qybaihe/bla",
     "ccch1mneyyy/dsh-go",
     "haydenschmitty/floorplan",
@@ -62,5 +76,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-10-30"
+  "ultimo_invio": "2026-10-31"
 }

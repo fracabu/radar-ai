@@ -27,6 +27,7 @@
   ],
   "cc_versione": "2.1.316",
   "x_visti": [
+    "2116524000977285321",
     "2116220869479428500",
     "2116253388883345623",
     "2116186509384815084",
@@ -60,6 +61,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "N1nEmAn/sapper-v2",
+    "wanghao-SunSky/cs329z-chinese",
+    "davemessew/AgentFlux",
+    "tang1693/KIKUmap",
+    "tavern-labs-ai/persona-ai-sdk",
     "ccch1mneyyy/dsh-Go",
     "wangzan101/Mika",
     "jackwener/DSH-Android",
@@ -76,5 +82,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-10-31"
+  "ultimo_invio": "2026-11-01"
 }

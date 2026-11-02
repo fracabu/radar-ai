@@ -61,6 +61,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "modelflare-ai/AnyModelBot",
+    "Balanov/uncut",
+    "muaaz9329/cheap-ag",
+    "aa1143/NamiGPT",
+    "khanh020905/my-office",
     "N1nEmAn/sapper-v2",
     "wanghao-SunSky/cs329z-chinese",
     "davemessew/AgentFlux",
@@ -82,5 +87,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-01"
+  "ultimo_invio": "2026-11-02"
 }

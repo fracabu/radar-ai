@@ -25,8 +25,13 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.317",
+  "cc_versione": "2.1.318",
   "x_visti": [
+    "2117692475775258785",
+    "2117710942826123294",
+    "2117574509179900410",
+    "2117562068220195097",
+    "2117670644506861900",
     "2117343929960112486",
     "2117307611338997846",
     "2117444048227123277",
@@ -47,6 +52,14 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "https://openai.com/index/cisco-cyber",
+    "https://openai.com/index/heimstaden",
+    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "https://huggingface.co/blog/allenai/statebench",
+    "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "https://huggingface.co/blog/cwe-bench",
+    "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
     "https://openai.com/index/scaling-git-at-openai",
     "https://openai.com/index/grid-protectors-program",
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -73,6 +86,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "KKKKhazix/agent-autoloop",
+    "R238Company/meu-emprego-novo",
+    "gh9ko8y/graphmemory",
+    "ersinkoc/AI-Video-Factory",
+    "exzade/EXZA-Remote",
     "Balanov/skein",
     "aa1143/NamiAgent",
     "SAOS-3624/dsh-see-now",
@@ -104,5 +122,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-03"
+  "ultimo_invio": "2026-11-04"
 }

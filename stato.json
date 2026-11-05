@@ -27,6 +27,10 @@
   ],
   "cc_versione": "2.1.318",
   "x_visti": [
+    "2118073665296228863",
+    "2117925908572991748",
+    "2118051904899166279",
+    "2118004921597665638",
     "2117692475775258785",
     "2117710942826123294",
     "2117574509179900410",
@@ -52,6 +56,12 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "https://openai.com/index/openai-to-acquire-pierre",
+    "https://openai.com/index/daybreak-red-aws-govcloud",
+    "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "https://openai.com/index/introducing-images-2-6",
+    "https://openai.com/index/devrev-enterprise-self-service",
     "https://openai.com/index/accelerating-engineering-for-the-physical-world",
     "https://openai.com/index/cisco-cyber",
     "https://openai.com/index/heimstaden",
@@ -86,6 +96,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "duyunzhoudyz/dyz-med-paper-skills",
+    "kubai087/kubai-icons",
+    "elhajahmadj/offline-emergency-library",
+    "wendersoon/radar-cnpj-mcp",
+    "ElysiumForge-Labs/elysium-chain-mcp",
     "KKKKhazix/agent-autoloop",
     "R238Company/meu-emprego-novo",
     "gh9ko8y/graphmemory",
@@ -122,5 +137,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-04"
+  "ultimo_invio": "2026-11-05"
 }

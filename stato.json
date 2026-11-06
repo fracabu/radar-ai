@@ -27,6 +27,12 @@
   ],
   "cc_versione": "2.1.318",
   "x_visti": [
+    "2118403114890137895",
+    "2118390190246879554",
+    "2118370229466153299",
+    "2118306577203822976",
+    "2118412135340572850",
+    "2118430862949945612",
     "2118073665296228863",
     "2117925908572991748",
     "2118051904899166279",
@@ -56,6 +62,16 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "https://huggingface.co/blog/phonon-tts",
+    "https://openai.com/index/australian-universities-ai-native-graduates",
+    "https://openai.com/index/cultfit-builds-with-codex",
+    "https://openai.com/index/introducing-gpt-6-cyber",
+    "https://openai.com/index/merge-builds-with-openai",
+    "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "https://openai.com/ads/customers/flipsnack",
+    "https://openai.com/index/franklin-templeton",
+    "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
     "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
     "https://openai.com/index/openai-to-acquire-pierre",
     "https://openai.com/index/daybreak-red-aws-govcloud",
@@ -96,6 +112,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "Sandflow-ai/sand3d",
+    "HerdBuilderEstimate/roblox-studio-mcp",
+    "mrhlaingbwardev/agentic-hacking-skills",
+    "JosssphZhou/poki",
+    "silverdugongenhance/PromptReel",
     "duyunzhoudyz/dyz-med-paper-skills",
     "kubai087/kubai-icons",
     "elhajahmadj/offline-emergency-library",
@@ -137,5 +158,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-05"
+  "ultimo_invio": "2026-11-06"
 }

@@ -25,8 +25,17 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.318",
+  "cc_versione": "2.1.319",
   "x_visti": [
+    "2118674834632978755",
+    "2118814753154064501",
+    "2118782708767965238",
+    "2118792930211107115",
+    "2118795218099253606",
+    "2118755418675765656",
+    "2118768974779634084",
+    "2118744719870066936",
+    "2118715992343789911",
     "2118403114890137895",
     "2118390190246879554",
     "2118370229466153299",
@@ -62,6 +71,10 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/partnering-with-hacktron",
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "https://huggingface.co/blog/allenai/toyblocks",
+    "https://huggingface.co/blog/open-asr-leaderboard-liva",
     "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
     "https://huggingface.co/blog/phonon-tts",
     "https://openai.com/index/australian-universities-ai-native-graduates",
@@ -112,6 +125,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "voyager-so/vork",
+    "yucezerey/turkish-anti-ai-skill",
+    "Glen-Web-App/best-agent-memory-mcp",
+    "sksarvesh007/antiglaude",
+    "orkbot-run/ork",
     "Sandflow-ai/sand3d",
     "HerdBuilderEstimate/roblox-studio-mcp",
     "mrhlaingbwardev/agentic-hacking-skills",
@@ -158,5 +176,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-06"
+  "ultimo_invio": "2026-11-07"
 }

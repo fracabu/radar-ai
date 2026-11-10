@@ -25,7 +25,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.319",
+  "cc_versione": "2.1.322",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -71,6 +71,12 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+    "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "https://openai.com/index/control-room",
+    "https://openai.com/index/coderabbit-codex-daybreak",
+    "https://openai.com/index/kuken",
     "https://openai.com/index/partnering-with-hacktron",
     "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
     "https://huggingface.co/blog/allenai/toyblocks",
@@ -125,6 +131,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "Nanoutrolley/roblox-studio-mcp",
+    "Dodaios/ste80-humanizer",
+    "howznguyen/shorts-kit",
+    "knot07/AegisOps",
+    "stevenmichaelthomas/numbrone",
     "supercli-site/awesome-coding-plan",
     "smokeeaasd/flawless-ui-ux",
     "TIGER-AI-Lab/WebsiteBench",
@@ -186,5 +197,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-09"
+  "ultimo_invio": "2026-11-10"
 }

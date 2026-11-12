@@ -72,6 +72,9 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/token-pooling",
+    "https://openai.com/index/jiostar-vijay-seshadri",
+    "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
     "https://openai.com/index/gilbert-tobin-sam-nickless",
     "https://openai.com/index/chatgpt-plus-for-veterans",
     "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
@@ -146,6 +149,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "agentes-chat/agentes-chat",
+    "FrigadeHQ/yogurt",
+    "SsKanDon/blender-ai-mcp-addon",
+    "SparkofSpike/Brain4Agent",
+    "huawei-csl/MACaQ",
     "21stware/bowel",
     "nishant-Tiwari24/cracked",
     "alexeyw/lot-map",
@@ -217,5 +225,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-11"
+  "ultimo_invio": "2026-11-12"
 }

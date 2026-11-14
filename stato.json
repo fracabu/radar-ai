@@ -26,7 +26,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.323",
+  "cc_versione": "2.1.325",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -72,6 +72,11 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/introducing-chatgpt-wallet",
+    "https://openai.com/business/customer-stories/shield",
+    "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "https://huggingface.co/blog/allenai/xybench",
+    "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
     "https://openai.com/business/customer-stories/amplitude",
     "https://openai.com/business/customer-stories/gondola",
     "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -156,6 +161,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "berkantay/gpucanvas",
+    "credoksopho1984/blender-ai-copilot-studio",
+    "hitkeeen/blender-ai-mcp-addon",
+    "tiobeharxi1987/blender-ai-copilot-flow",
+    "precygtrucqui1981/blender-ai-copilot-lab",
     "op7418/guizang-game-skill",
     "DandanLLab/SnowCatQQ",
     "fengyiqicoder/awesome-fable-5.2",
@@ -237,5 +247,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-13"
+  "ultimo_invio": "2026-11-14"
 }

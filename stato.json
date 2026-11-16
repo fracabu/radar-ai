@@ -72,6 +72,8 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/step-toward-defining-the-standard-model",
+    "https://openai.com/index/our-new-blog-for-science",
     "https://openai.com/index/introducing-chatgpt-wallet",
     "https://openai.com/business/customer-stories/shield",
     "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -161,6 +163,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "racdeufindurch198812/Blender-AI-MCP-Studio",
+    "zovulrira1974/blender-ai-copilot-assets",
+    "Doug-218/blender-ai-copilot-forge",
+    "fumbdendade19718/blender-ai-copilot-desk",
+    "baiblinocun1986/blender-ai-copilot-hub",
     "Topkiflare74/ai--manus2.0",
     "topapothecarycanal/ai--manus2.0",
     "toppatronweave/ai--manus2.0",
@@ -252,5 +259,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-15"
+  "ultimo_invio": "2026-11-16"
 }

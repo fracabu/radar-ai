@@ -26,7 +26,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.325",
+  "cc_versione": "2.1.326",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -72,6 +72,17 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "https://openai.com/index/strengthening-online-child-safety",
+    "https://openai.com/index/science-at-the-frontier",
+    "https://openai.com/business/customer-stories/revolut",
+    "https://openai.com/index/lvmh-media-division-partnership",
+    "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "https://openai.com/index/the-kings-trust-and-openai",
+    "https://openai.com/business/customer-stories/holiday-extras-dots",
+    "https://huggingface.co/blog/openrouter",
     "https://openai.com/index/step-toward-defining-the-standard-model",
     "https://openai.com/index/our-new-blog-for-science",
     "https://openai.com/index/introducing-chatgpt-wallet",
@@ -163,6 +174,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "BigPizzaV3/ClaudeMom",
+    "findavoulot1973/Blender-AI-MCP-Suite",
+    "YellowLaborerMarket/Gemini-Config-Checker-",
+    "Visionbeyondtrack/Gemini-Config-Checker-",
+    "VortexHostFeel/Gemini-Config-Checker-",
     "racdeufindurch198812/Blender-AI-MCP-Studio",
     "zovulrira1974/blender-ai-copilot-assets",
     "Doug-218/blender-ai-copilot-forge",
@@ -259,5 +275,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-16"
+  "ultimo_invio": "2026-11-17"
 }

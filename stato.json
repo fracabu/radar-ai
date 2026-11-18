@@ -26,7 +26,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.326",
+  "cc_versione": "2.1.327",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -72,6 +72,11 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "https://openai.com/index/introducing-chatgpt-for-sales",
+    "https://openai.com/index/astra-law-6-2",
+    "https://openai.com/index/introducing-openai-for-chile",
     "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
     "https://openai.com/index/strengthening-online-child-safety",
     "https://openai.com/index/science-at-the-frontier",
@@ -174,6 +179,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "erkamyaman/rust-anything",
+    "sybil-solutions/inference-optimisation-skill",
+    "boringmarketer/boring-marketing-skills",
+    "weightcashiercupola/Gemini-Config-Checker-",
+    "WinnerSpecialist/Gemini-Config-Checker-",
     "BigPizzaV3/ClaudeMom",
     "findavoulot1973/Blender-AI-MCP-Suite",
     "YellowLaborerMarket/Gemini-Config-Checker-",
@@ -275,5 +285,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-17"
+  "ultimo_invio": "2026-11-18"
 }

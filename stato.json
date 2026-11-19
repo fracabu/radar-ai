@@ -2,6 +2,7 @@
   "news_visti": [
     "public-benefit-fund",
     "s1-sec",
+    "anthropic-prices-initial-public-offering",
     "roadshow-launch",
     "ai-for-science-expands-foundations-research-institutions",
     "expanding-partnership-gsa",
@@ -26,7 +27,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.327",
+  "cc_versione": "2.1.328",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -72,6 +73,20 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/the-silent-consensus",
+    "https://openai.com/index/research-acceleration-jagged-frontier",
+    "https://openai.com/business/customer-stories/sumitomo-life",
+    "https://openai.com/index/inside-the-codex-sandbox",
+    "https://openai.com/index/managing-frontier-ai-risk",
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "https://openai.com/index/advancing-chip-design-with-our-models",
+    "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+    "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+    "https://huggingface.co/blog/moe-expert-streaming",
+    "https://huggingface.co/blog/rumble-2-flash",
+    "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "https://deepmind.google/blog/genie-4-is-now-available/",
     "https://openai.com/index/introducing-gpt-6-2-astra-sol",
     "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
     "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -179,6 +194,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "Violetnyudress/Gemini-Config-Checker-",
+    "TypeTyrantScheme/Gemini-Config-Checker-",
+    "WingDataVacuum/Gemini-Config-Checker-",
+    "WyrmClimberManacle/Gemini-Config-Checker-",
+    "WindGatorRise37/Gemini-Config-Checker-",
     "erkamyaman/rust-anything",
     "sybil-solutions/inference-optimisation-skill",
     "boringmarketer/boring-marketing-skills",
@@ -285,5 +305,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-18"
+  "ultimo_invio": "2026-11-19"
 }

@@ -2,6 +2,7 @@
   "news_visti": [
     "public-benefit-fund",
     "s1-sec",
+    "ipo-close",
     "anthropic-prices-initial-public-offering",
     "roadshow-launch",
     "ai-for-science-expands-foundations-research-institutions",
@@ -27,7 +28,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.329",
+  "cc_versione": "2.1.330",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -73,6 +74,11 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/inkling2mini",
+    "https://huggingface.co/blog/harness-adapters-at-scale",
+    "https://openai.com/index/combatting-adversarial-distillation",
+    "https://openai.com/business/customer-stories/hebbia",
+    "https://openai.com/index/introducing-medchembench",
     "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
     "https://openai.com/business/learn/deploying-daybreak-red",
     "https://openai.com/business/learn/pr-scans-demo",
@@ -199,6 +205,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "TurtleReside/Gemini-Config-Checker-",
+    "jackson-cmd/claude-multi-desktop",
+    "INK-Q/agy-fast",
+    "mdexa-ai/mdexa-ai-native-database",
+    "Wilfriedbkt/interview-copilot-edtech-app",
     "bookwjitchieni1986/blender-ai-mcp-addon",
     "WireProvostPucker/Gemini-Config-Checker-",
     "TrooperFilter/Gemini-Config-Checker-",
@@ -315,5 +326,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-20"
+  "ultimo_invio": "2026-11-21"
 }

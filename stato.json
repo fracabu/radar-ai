@@ -205,6 +205,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "EL4CTEO/fast-anything",
+    "praseesh369/youtube-ai-video-editing-system",
+    "JimLiu/open-artifact",
+    "w01fb0ss/PiBot",
+    "lynote-ai/ai-tutor",
     "TurtleReside/Gemini-Config-Checker-",
     "jackson-cmd/claude-multi-desktop",
     "INK-Q/agy-fast",
@@ -326,5 +331,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-21"
+  "ultimo_invio": "2026-11-22"
 }

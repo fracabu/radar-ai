@@ -74,6 +74,7 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/perplexity-and-intelligence",
     "https://huggingface.co/blog/inkling2mini",
     "https://huggingface.co/blog/harness-adapters-at-scale",
     "https://openai.com/index/combatting-adversarial-distillation",
@@ -205,6 +206,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "Juanlabs1989/descript-pro-win",
+    "Morriswawan05/elevenlabs-pro-win",
+    "GuzmanJacqueline93/copy-ai-pro-win",
+    "debugdigital677/descript-pro-win",
+    "JieFedorov81/runway-ml-pro-win",
     "EL4CTEO/fast-anything",
     "praseesh369/youtube-ai-video-editing-system",
     "JimLiu/open-artifact",
@@ -331,5 +337,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-22"
+  "ultimo_invio": "2026-11-23"
 }

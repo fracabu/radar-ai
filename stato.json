@@ -28,7 +28,7 @@
     "accenture-embedded-evaluation",
     "life-sciences-verification-program"
   ],
-  "cc_versione": "2.1.331",
+  "cc_versione": "2.1.332",
   "x_visti": [
     "2118674834632978755",
     "2118814753154064501",
@@ -74,6 +74,12 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "https://openai.com/business/customer-stories/intentful-dots",
+    "https://openai.com/business/customer-stories/ifood",
+    "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
     "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
     "https://openai.com/index/introducing-shirudo",
     "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
@@ -212,6 +218,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "Developing-Gamer/agent-sim",
+    "EL4CTEO/shrink-anything",
+    "LIUFelix2004/dsh-workbuddy",
+    "nestjs/agent-skills",
+    "beyondtahir/beyondgtaclips",
     "erkamyaman/safe-anything",
     "qianyiai/kurocat",
     "lukendeasy/open-diagram",
@@ -348,5 +359,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-24"
+  "ultimo_invio": "2026-11-25"
 }

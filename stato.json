@@ -74,6 +74,10 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
     "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
     "https://openai.com/index/searching-for-distant-planets-with-astra",
     "https://openai.com/business/customer-stories/intentful-dots",
@@ -218,6 +222,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "alesha-pro/llm.asm",
+    "chanke17/KuroCat",
+    "bytebuildsmall/claude-desktop",
+    "matheusmongarde/garimpo",
+    "zou172866/Antigravity-agy-dart",
     "Developing-Gamer/agent-sim",
     "EL4CTEO/shrink-anything",
     "LIUFelix2004/dsh-workbuddy",
@@ -359,5 +368,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-25"
+  "ultimo_invio": "2026-11-26"
 }

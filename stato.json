@@ -74,6 +74,7 @@
     "2115207004293853358"
   ],
   "feed_visti": [
+    "https://huggingface.co/blog/video-trainium3",
     "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
     "https://huggingface.co/blog/training-swarms",
     "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
@@ -224,6 +225,11 @@
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
   ],
   "repo_visti": [
+    "DeadInternetStudios/100x-engineer-skill",
+    "clipy-recorder/clipy",
+    "uxpilot-ai/frontend-design-skill",
+    "7wdn/7paws",
+    "ankurmans/caldrin-search-oss",
     "qianyiai/KuroCat",
     "nexu-io/opengame",
     "gary23w/f-ck_data_brokers",
@@ -375,5 +381,5 @@
     "ChannelCooperStart/capri-ai",
     "0xS4N4TG/kinetograph"
   ],
-  "ultimo_invio": "2026-11-27"
+  "ultimo_invio": "2026-11-28"
 }
